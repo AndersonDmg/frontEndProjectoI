@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tela Login</title>
+</head>
+<body>
+    <main>
+        <div id="menu">
+                    
+                </div>
+        <h1> Cadastra-se! </h1>
+        <p >Faça o <em>Cadastro</em> para fazer parte da Chuva de comida</p>
+        <div class="Login"> 
+            
+            <div class="form">
+               
+                <form>
+                    <label> 
+                        <label for="name-label">Nome Completo:<input id="name" type="text" name="name" placeholder="digite o seu nome" required></label>
+                        <br>
+                        <label for="email-label">Email :<input id="Email"type="email" name="email "placeholder= "digite o seu email" required></label>
+                        <br>
+                        <label for="password-label">Palavra passe :<input id="new-password"type="password" pattern="[a-z0-5]{8,}"  placeholder= "digite a sua palavra passe"></label>
+                        <br>
+                        <label for="number-label">Idade(anos) :<input id="number"type="number" min="15" max="99"></label>
+                        <br>
+                         <fieldset><legend>Escolha o seu sexo:</legend>
+                            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Adão</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Eva</label>
+                        </fieldset>
+                        <input id="enviar" type="submit" name="submit" >
+                    </label>
+
+                </form>
+
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
